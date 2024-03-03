@@ -1,0 +1,87 @@
+:root {
+  /* font family */
+  --fontH1: 'Roboto', sans-serif, Arial;
+  --fontmainH1: 'Roboto Slab', serif, Times New Roman;
+
+  /* font size */
+  --fontSizeH1: 2.875em;
+  --fontSizeH2: 2.125em;
+  --fontSizeH3: 1.75em;
+  --fontSizeH4: 1.625em;
+  --fontSizeH5: 1.5em;
+  --fontSizeH6: 1.375em;
+  --fontSizeH7: 1.125em;
+  --fontSizeH8: 1em;
+  --fontSizeH9: 0.875em;
+
+  /* colors */
+  --blue1: #5a629c;
+  --blue2: #cccee0;
+  --blue3: #e6e7f0;
+  --blue4: #efeff5;
+  --green2: #cad8bc;
+  --green3: #e5ecdf;
+  --red2: #f2b2b2;
+  --red3: #f9dada;
+  --yellow2: #fde8be;
+  --yellow3: #fef4df;
+  --yellow4: #fef8ea;
+
+
+}
+
+#getInvolved {
+  display: grid;
+  grid-template-columns: repeat(2, 39.5625rem);
+  /* grid-template-columns: repeat(2, 825px); */
+  grid-template-rows: repeat(2, 22.125em);
+  gap: 1.5rem;
+  padding: 1rem 6.25rem 0 6.25rem;
+}
+
+.getInvolved1 {
+  position: relative;
+  background-color: var(--blue4);
+  border-radius: 20px;
+}
+
+.getInvolved-title {
+  top: 25%;
+  left: 5%;
+  font-size: var(--fontSizeH4);
+  position: absolute;
+  font-family: var(--fontmainH1);
+  font-weight: 500;
+}
+
+.getInvolved-text {
+  width: 90%;
+  font-size: var(--fontSizeH6);
+  font-family: var(--fontmainH1);
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+
+#getSocial {
+  display: grid;
+  grid-template-columns: repeat(3, 25.875rem);
+  grid-template-rows: repeat(2, 12.625rem);
+  gap: 1.5rem;
+  padding: 1rem 6.25rem 0 6.25rem;
+}
+
+.getSocial-title {
+  font-family: var(--fontmainH1);
+  font-size: var(--fontSizeH5);
+  font-weight: 600;
+  color: var(--blue1);
+}
+
+.getSocial-text {
+  font-family: var(--fontmainH1);
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 15px;
+  line-height: 1.5;
+}

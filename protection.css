@@ -1,0 +1,122 @@
+:root {
+  /* font family */
+  --fontH1: 'Roboto', sans-serif, Arial;
+  --fontmainH1: 'Roboto Slab', serif, Times New Roman;
+
+  /* font size */
+  --fontSizeH1: 2.875em;
+  --fontSizeH2: 2.125em;
+  --fontSizeH3: 1.75em;
+  --fontSizeH4: 1.625em;
+  --fontSizeH5: 1.5em;
+  --fontSizeH6: 1.375em;
+  --fontSizeH7: 1.125em;
+  --fontSizeH8: 1em;
+  --fontSizeH9: 0.875em;
+
+  /* colors */
+  --blue1: #5a629c;
+  --blue2: #cccee0;
+  --blue3: #e6e7f0;
+  --blue4: #efeff5;
+  --green2: #cad8bc;
+  --green3: #e5ecdf;
+  --red2: #f2b2b2;
+  --red3: #f9dada;
+  --yellow2: #fde8be;
+  --yellow3: #fef4df;
+  --yellow4: #fef8ea;
+
+
+}
+
+.protection-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 25.875rem);
+  grid-template-rows: repeat(1, 5rem);
+  gap: 1.5rem;
+  padding: 1rem 6.25rem 0 6.25rem;
+}
+
+.protection-menu1 {
+  background-color: var(--red3);
+}
+
+.protection-menu2 {
+  background-color: var(--green3);
+}
+
+.protection-menu3 {
+  background-color: var(--yellow3);
+}
+
+.protection-menu span {
+  font-size: var(--fontSizeH5);
+  font-weight: 500;
+  font-family: var(--fontH1);
+  color: black;
+}
+
+.long-bgc {
+  position: relative;
+  margin: 1.875rem 6.25rem 0 6.25rem;
+  padding: 0 1.875rem;
+  width: 80.6rem;
+  background-color: var(--blue2);
+}
+
+.protection-long img {
+  width: 35%;
+  height: auto;
+  position: absolute;
+  bottom: 12%;
+  right: 5%;
+}
+
+.protection-big {
+  position: relative;
+  margin: 1.875rem 0;
+  width: 100%;
+  height: 25rem;
+  background-color: var(--red3);
+}
+
+.protection-big2 {
+  position: relative;
+  margin: 1.875rem 0;
+  width: 100%;
+  height: 25rem;
+  background-color: var(--green3);
+}
+
+.protection-big3 {
+  position: relative;
+  margin: 1.875rem 0;
+  width: 100%;
+  height: 25rem;
+  background-color: var(--yellow3);
+}
+
+/* previousPage-nextPage */
+#previousPage-nextPage {
+  position: relative;
+  text-align: center;
+  font-family: var(--fontH1);
+  font-size: var(--fontSizeH7);
+  font-weight: 500;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.previousPage-nextPage a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  color: black;
+}
+
+.previousPage-nextPage a:hover {
+  background-color: var(--blue4);
+}

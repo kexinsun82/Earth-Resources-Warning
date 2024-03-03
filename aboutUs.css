@@ -1,0 +1,43 @@
+:root {
+  /* font family */
+  --fontH1: 'Roboto', sans-serif, Arial;
+  --fontmainH1: 'Roboto Slab', serif, Times New Roman;
+
+  /* font size */
+  --fontSizeH1: 2.875em;
+  --fontSizeH2: 2.125em;
+  --fontSizeH3: 1.75em;
+  --fontSizeH4: 1.625em;
+  --fontSizeH5: 1.5em;
+  --fontSizeH6: 1.375em;
+  --fontSizeH7: 1.125em;
+  --fontSizeH8: 1em;
+  --fontSizeH9: 0.875em;
+
+  /* colors */
+  --blue1: #5a629c;
+  --blue2: #cccee0;
+  --blue3: #e6e7f0;
+  --blue4: #efeff5;
+  --green2: #cad8bc;
+  --green3: #e5ecdf;
+  --red2: #f2b2b2;
+  --red3: #f9dada;
+  --yellow2: #fde8be;
+  --yellow3: #fef4df;
+  --yellow4: #fef8ea;
+
+
+}
+
+#aboutUs {
+  margin: 1rem 6.25rem 0 6.25rem;
+}
+
+.aboutUs-text {
+  width: 80.6rem;
+  font-family: var(--fontmainH1);
+  font-size: var(--fontSizeH5);
+  font-weight: 400;
+  line-height: 1.5;
+}

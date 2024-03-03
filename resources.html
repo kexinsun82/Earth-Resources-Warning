@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources</title>
+  <link rel="stylesheet" href="./global.css">
+  <link rel="stylesheet" href="./resources.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <script defer src="./global.js"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <!-- top-nav -->
+    <div class="top-nav">
+      <div class="sub-navbar">
+        <a href="./news.html"><img class="top-button" src="./images/newsButton.png" alt="newsButton">News & Articles</a>
+        <a href="./aboutUs.html"><img class="top-button" src="./images/aboutUsButton.png" alt="aboutUsButton">About
+          Us</a>
+        <div class="dropdown">
+          <button class="Language"><a href="#"><img class="top-button" id="languageButton"
+                src="./images/languageButton.png" alt="languageButton">Language
+              <i class="fa fa-caret-down"></i></a>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">English</a>
+            <a href="#">French</a>
+            <a href="#">Chinese</a>
+            <a href="#">Spanish</a>
+          </div>
+        </div>
+        <!-- searchForm -->
+        <form id="searchForm">
+          <input class="search-form" type="text" id="search-input" placeholder="Search">
+          <img class="search-button" src="./images/searchButton.png" alt="searchButton">
+        </form>
+      </div>
+    </div>
+    <!-- nav -->
+    <nav>
+      <a href="./index.html"><img id="nav-logo" src="./images/logo.png" alt="logo"></a>
+      <ul>
+        <li><a href="./index.html" class="nav-title">Home</a></li>
+        <li class="nav-active nav-title"><a href="./resources.html">Resources</a></li>
+        <li><a href="./factors.html" class="nav-title">Factors</a></li>
+        <li><a href="./protection.html" class="nav-title">Protection</a></li>
+        <li><a href="./getInvolved.html" class="nav-title">Get Involved</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- main -->
+  <main>
+    <!-- Banner-Slideshow -->
+    <div class="slideshow-containter">
+      <div class="slide-box fade">
+        <img class="banner-img" src="./images/banner4.png"
+          alt="Tackling Urban Industrial Gas Emissions for a Breathable">
+        <div class="banner-title">Tackling Urban Industrial Gas Emissions for a Breathable</div>
+        <div class="banner-text">Dive into the urgent matter of urban industrial gas emissions and air pollution as we
+          unveil initiatives and solutions aimed at creating cleaner and healthier cities. Explore the comprehensive
+          efforts to address this environmental challenge for a breath of fresh air in our urban landscapes.</div>
+        <div class="img-resource">Unsplash</div>
+      </div>
+      <div class="slide-box fade">
+        <img class="banner-img" src="./images/banner5.png"
+          alt="Confronting the Crisis of Overexploitation and Depleting Mineral Resources">
+        <div class="banner-title">Mineral Crisis: Earth's Depleting Resources</div>
+        <div class="banner-text">Uncover the critical issue of overexploitation and the looming scarcity of
+          non-renewable resources. Explore the challenges and sustainable solutions in the face of diminishing mineral
+          reserves, urging a collective commitment to preserve the treasures of our planet. </div>
+        <div class="img-resource">Unsplash</div>
+      </div>
+      <div class="slide-box fade">
+        <img class="banner-img" src="./images/banner6.png"
+          alt="Safeguarding the Lifeblood: Unveiling Initiatives for Oil Conservation">
+        <div class="banner-title">Safeguarding the Lifeblood: Unveiling Initiatives for Oil Conservation</div>
+        <div class="banner-text">In a world increasingly dependent on oil, our article sheds light on vital initiatives
+          aimed at safeguarding this precious resource. Explore the innovative strategies and global efforts dedicated
+          to preserving the lifeblood of our modern society.</div>
+        <div class="img-resource">Unsplash</div>
+      </div>
+      <!-- arrow -->
+      <a class="prev" onclick="plusSlides(-1)"> <img class="banner-arrow" src="./images/banner-arrow1.png"
+          alt="banner-arrow"> </a>
+      <a class="next" onclick="plusSlides(1)"> <img class="banner-arrow" src="./images/banner-arrow2.png"
+          alt="banner-arrow"> </a>
+    </div>
+    <br>
+    <!-- dots -->
+    <div class="dots-box">
+      <span class="dot dot-active" onclick="currentSlide(1)"></span>
+      <span class="dot dot-active" onclick="currentSlide(2)"></span>
+      <span class="dot dot-active" onclick="currentSlide(3)"></span>
+    </div>
+    <!-- resources -->
+    <div class="bigbox-resources">
+      <h1 class="title">Resources</h1>
+      <div class="resources-menu">
+        <div class="menu menu1">
+          <span>Freshwater <img src="./images/resources-menu-arrow.png" alt="resources-menu-arrow"></span>
+        </div>
+        <div class="menu menu2">
+          <span>Arable Land <img src="./images/resources-menu-arrow.png" alt="resources-menu-arrow"></span>
+        </div>
+        <div class="menu menu3">
+          <span>Forests <img src="./images/resources-menu-arrow.png" alt="resources-menu-arrow"></span>
+        </div>
+        <div class="menu menu4">
+          <span>Non-renewable <img src="./images/resources-menu-arrow.png" alt="resources-menu-arrow"></span>
+        </div>
+      </div>
+      <div id="resources">
+        <!-- resources1 -->
+        <div class="resources-box">
+          <div class="box-label resources-label label1">
+            Freshwater
+          </div>
+          <p class="box-title">The Freshwater Challenge</p>
+          <img class="box-img" src="./images/resources1.png" alt="resources1">
+        </div>
+        <!-- resources2 -->
+        <div class="resources-box">
+          <div class="box-label resources-label label2">
+            Arable Land
+          </div>
+          <p class="box-title">The Arable Land Challenge</p>
+          <img class="box-img" src="./images/resources2.png" alt="resources2">
+        </div>
+        <!-- resources3 -->
+        <div class="resources-box">
+          <div class="box-label resources-label label3">
+            Forests
+          </div>
+          <p class="box-title">The Forests Challenge</p>
+          <img class="box-img" src="./images/resources3.png" alt="resources3">
+        </div>
+        <!-- resources4 -->
+        <div class="resources-box">
+          <div class="box-label resources-label label4">
+            Non-renewable
+          </div>
+          <p class="box-title4">The Non-renewable Challenge</p>
+          <img class="box-img" src="./images/resources4.png" alt="resources4">
+        </div>
+      </div>
+      <!-- resourseBox2 -->
+      <div id="resourseBox2">
+        <!-- box2-1 -->
+        <div class="box2-1">
+          <div class="box2-left-1">
+            <div class="box2-button">
+              <div class="box-label follow-label follow-button">
+                Follow
+              </div>
+              <div class="follow-label share-button">
+                <a target="_blank" href="https://www.facebook.com/"><img src="./images/share-button.png"
+                    alt="share-button"></a>
+              </div>
+            </div>
+            <p class="resourseBox2-title">The water cycle on Earth</p>
+            <p class="resourseBox2-text">Water is essential to life on Earth. In its three phases (solid, liquid, and
+              gas), water ties together the major parts of the Earth’s climate system — air, clouds, the ocean, lakes,
+              vegetation, snowpack, and glaciersoffsite link.</p>
+            <button class="continue-button">Continue Reading</button>
+          </div>
+          <div class="box2-right">
+            <img src="./images/right1.png" alt="The water cycle on Earth">
+          </div>
+        </div>
+        <!-- box2-2 -->
+        <div class="box2-1">
+          <div class="box2-left-2">
+            <div class="box2-button">
+              <div class="box-label follow-label follow-button">
+                Follow
+              </div>
+              <div class="follow-label share-button">
+                <a target="_blank" href="https://www.facebook.com/"><img src="./images/share-button.png"
+                    alt="share-button"></a>
+              </div>
+            </div>
+            <p class="resourseBox2-title">Decade on Ecosystem Restoration</p>
+            <p class="resourseBox2-text">Ecosystem restoration means assisting in the recovery of ecosystems that have
+              been degraded or destroyed, as well as conserving the ecosystems that are still intact.</p>
+            <button class="continue-button">Continue Reading</button>
+          </div>
+          <div class="box2-right">
+            <img src="./images/right2.png" alt="Decade on Ecosystem Restoration">
+          </div>
+        </div>
+        <!-- box2-3 -->
+        <div class="box2-1">
+          <div class="box2-left-3">
+            <div class="box2-button">
+              <div class="box-label follow-label follow-button">
+                Follow
+              </div>
+              <div class="follow-label share-button">
+                <a target="_blank" href="https://www.facebook.com/"><img src="./images/share-button.png"
+                    alt="share-button"></a>
+              </div>
+            </div>
+            <p class="resourseBox2-title">Forest Carbon Storage: Protecting Our Trees</p>
+            <p class="resourseBox2-text">Worldwide protected forests have an additional 9.65 billion metric tons of
+              carbon stored in their aboveground biomass compared to ecologically similar unprotected areas.</p>
+            <button class="continue-button">Continue Reading</button>
+          </div>
+          <div class="box2-right">
+            <img src="./images/right3.png" alt="Forest Carbon Storage: Protecting Our Trees">
+          </div>
+        </div>
+        <!-- box2-4 -->
+        <div class="box2-1">
+          <div class="box2-left-4">
+            <div class="box2-button">
+              <div class="box-label follow-label follow-button">
+                Follow
+              </div>
+              <div class="follow-label share-button">
+                <a target="_blank" href="https://www.facebook.com/"><img src="./images/share-button.png"
+                    alt="share-button"></a>
+              </div>
+            </div>
+            <p class="resourseBox2-title">Nonrenewable Resources</p>
+            <p class="resourseBox2-text">Nonrenewable energy resources include coal, natural gas, oil, and nuclear
+              energy. Once these resources are used up, they cannot be replaced, which is a major problem for humanity
+              as we are currently dependent on them to supply most of our energy needs.</p>
+            <button class="continue-button">Continue Reading</button>
+          </div>
+          <div class="box2-right">
+            <img src="./images/right4.png" alt="Nonrenewable Resources">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+  <!-- footer -->
+  <footer id="footer">
+    <div class="footer1">
+      <h1 class="footer-title">Quick Links</h1>
+      <a class="quick-title" href="./index.html">Home</a>
+      <a class="quick-title" href="./resources.html">Resources</a>
+      <a class="quick-title" href="./factors.html">Factors</a>
+      <a class="quick-title" href="./protection.html">Protection</a>
+      <a class="quick-title" href="./getInvolved.html">Get Involved</a>
+      <a class="quick-title" href="./news.html">News & Articles</a>
+      <a class="quick-title" href="./aboutUs.html">About Us</a>
+    </div>
+    <div class="footer2">
+      <h1 class="footer-title">Follow Us</h1>
+      <a class="follow-logo" target="_blank" href="https://www.facebook.com/"><img src="./images/facebook.png"
+          alt="facebook"></a>
+      <a class="follow-logo" target="_blank" href="https://twitter.com/"><img src="./images/twitter.png"
+          alt="twitter"></a>
+      <a class="follow-logo" target="_blank" href="https://www.linkedin.com/"><img src="./images/linkedin.png"
+          alt="linkedin"></a>
+      <a class="follow-logo" target="_blank" href="https://www.instagram.com/"><img src="./images/instagram.png"
+          alt="instagram"></a>
+    </div>
+    <div class="footer3">
+      <!-- searchForm -->
+      <form>
+        <input class="search-form" type="text" id="footer-searchForm" placeholder="Search">
+        <img class="footer-search" src="./images/searchButton.png" alt="searchButton">
+      </form>
+      <a href="./index.html"><img class="footer-logo" src="./images/logo.png" alt="footer-logo"></a>
+    </div>
+  </footer>
+  <img onclick="topFunction()" id="gototop" class="top" src="./images/top.png" alt="gototop">
+</body>
+
+</html>

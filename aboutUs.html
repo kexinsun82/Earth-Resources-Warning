@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Involved</title>
+  <link rel="stylesheet" href="./global.css">
+  <link rel="stylesheet" href="./getInvolved.css">
+  <link rel="stylesheet" href="./aboutUs.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <script defer src="./global.js"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <!-- top-nav -->
+    <div class="top-nav">
+      <div class="sub-navbar">
+        <a href="./news.html"><img class="top-button" src="./images/newsButton.png" alt="newsButton">News & Articles</a>
+        <a href="./aboutUs.html"><img class="top-button" src="./images/aboutUsButton.png" alt="aboutUsButton">About
+          Us</a>
+        <div class="dropdown">
+          <button class="Language"><a href="#"><img class="top-button" id="languageButton"
+                src="./images/languageButton.png" alt="languageButton">Language
+              <i class="fa fa-caret-down"></i></a>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">English</a>
+            <a href="#">French</a>
+            <a href="#">Chinese</a>
+            <a href="#">Spanish</a>
+          </div>
+        </div>
+        <!-- searchForm -->
+        <form id="searchForm">
+          <input class="search-form" type="text" id="search-input" placeholder="Search">
+          <img class="search-button" src="./images/searchButton.png" alt="searchButton">
+        </form>
+      </div>
+    </div>
+    <!-- nav -->
+    <nav>
+      <a href="./index.html"><img id="nav-logo" src="./images/logo.png" alt="logo"></a>
+      <ul>
+        <li><a href="./index.html" class="nav-title">Home</a></li>
+        <li><a href="./resources.html" class="nav-title">Resources</a></li>
+        <li><a href="./factors.html" class="nav-title">Factors</a></li>
+        <li><a href="./protection.html" class="nav-title">Protection</a></li>
+        <li><a href="./getInvolved.html" class="nav-title">Get Involved</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- main -->
+  <main>
+    <!-- About Us -->
+    <div class="bigbox-resources">
+      <h1 class="title">About Us</h1>
+      <div id="aboutUs">
+        <div class="aboutUs">
+          <p class="aboutUs-text">Human activities have had a profound impact on the environment and the availability of
+            many important resources. The problem of global warming persists, and a range of threats such as
+            overexploitation, habitat destruction and pollution exacerbate resource depletion. This website is therefore
+            intended as a call to humanity to emphasize the urgent need to protect the planet by presenting an overview
+            of its resources. By incorporating relevant data and information on these resources, the site aims to
+            provide individuals and organizations with a more useful platform for learning and publishing conservation
+            information, inspiring greater participation in conservation efforts.</p>
+        </div>
+      </div>
+      <!-- Get Social & Share -->
+      <h1 class="title">Get Social & Share</h1>
+      <div id="getSocial">
+        <div class="getSocial">
+          <p class="getSocial-title">The Nature Conservancy</p>
+          <p class="getSocial-text">Address: 4245 North Fairfax Drive, Suite 100Arlington, Virginia 22203-1606<br>Phone:
+            703-841-5300<br>Email: member@tnc.org</p>
+        </div>
+        <div class="getSocial">
+          <p class="getSocial-title">Rights Of Nature PH</p>
+          <p class="getSocial-text">Address: Quezon Avenue, Brgy. South Triangle, Quezon City, 1103 Metro
+            Manila<br>Phone: 8961-5953<br>Email: rightsofnaturecampaign.ph@gmail.com</p>
+        </div>
+        <div class="getSocial">
+          <p class="getSocial-title">Nature Conservancy of Canada</p>
+          <p class="getSocial-text">Address: 365 Bloor Street East, Suite 1501Toronto, Ontario, Canada M4W 3L4<br>Phone:
+            1-877-231-3552<br>Email: nature@natureconservancy.ca</p>
+        </div>
+        <div class="getSocial">
+          <p class="getSocial-title">National Geographic</p>
+          <p class="getSocial-text">Address: 1145 17th Street NW, Washington D.C., DC, United States, Washington,
+            District of Columbia<br>Phone: +1 202-857-7000</p>
+        </div>
+        <div class="getSocial">
+          <p class="getSocial-title">UN Environment Programme</p>
+          <p class="getSocial-text">Address: United Nations Avenue, Gigiri Nairobi, KenyaP.O. Box 30552, 00100Nairobi,
+            Kenya<br>Phone: +254 (0)20 762 1234<br>Email: unep-executiveoffice@un.org</p>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Us -->
+    <h1 class="title">Contact Us</h1>
+    <div id="form-contant">
+      <div id="contactus">
+        <div class="contact-left">
+          <form action="#" method="post">
+            <label for="firstName">
+              First Name*
+            </label>
+            <input type="text" id="firstName" name="firstName" required>
+            <label for="lastName">
+              Last Name*
+            </label>
+            <input type="text" id="lastName" name="lastName" required>
+            <label for="email">
+              Email*
+            </label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">
+              Phone
+            </label>
+            <input type="number" id="phone" name="phone" required>
+            <br>
+            <button class="form-button submit">Submit</button>
+            <button class="form-button cancel">Cancel</button>
+          </form>
+        </div>
+        <div class="contact-right">
+          <form action="#">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </form>
+          <form class="subscribe" action="#">
+            <input type="checkbox" id="Subscribe" name="Subscribe" value="Subscribe">
+            <label id="subscribe" for="Subscribe">Subscribe to be the first to hear about our latest news!</label>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <!-- footer -->
+  <footer id="footer">
+    <div class="footer1">
+      <h1 class="footer-title">Quick Links</h1>
+      <a class="quick-title" href="./index.html">Home</a>
+      <a class="quick-title" href="./resources.html">Resources</a>
+      <a class="quick-title" href="./factors.html">Factors</a>
+      <a class="quick-title" href="./protection.html">Protection</a>
+      <a class="quick-title" href="./getInvolved.html">Get Involved</a>
+      <a class="quick-title" href="./news.html">News & Articles</a>
+      <a class="quick-title" href="./aboutUs.html">About Us</a>
+    </div>
+    <div class="footer2">
+      <h1 class="footer-title">Follow Us</h1>
+      <a class="follow-logo" target="_blank" href="https://www.facebook.com/"><img src="./images/facebook.png"
+          alt="facebook"></a>
+      <a class="follow-logo" target="_blank" href="https://twitter.com/"><img src="./images/twitter.png"
+          alt="twitter"></a>
+      <a class="follow-logo" target="_blank" href="https://www.linkedin.com/"><img src="./images/linkedin.png"
+          alt="linkedin"></a>
+      <a class="follow-logo" target="_blank" href="https://www.instagram.com/"><img src="./images/instagram.png"
+          alt="instagram"></a>
+    </div>
+    <div class="footer3">
+      <!-- searchForm -->
+      <form>
+        <input class="search-form" type="text" id="footer-searchForm" placeholder="Search">
+        <img class="footer-search" src="./images/searchButton.png" alt="searchButton">
+      </form>
+      <a href="./index.html"><img class="footer-logo" src="./images/logo.png" alt="footer-logo"></a>
+    </div>
+  </footer>
+  <img onclick="topFunction()" id="gototop" class="top" src="./images/top.png" alt="gototop">
+</body>
+
+</html>

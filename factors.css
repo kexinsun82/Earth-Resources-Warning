@@ -1,0 +1,223 @@
+:root {
+  /* font family */
+  --fontH1: 'Roboto', sans-serif, Arial;
+  --fontmainH1: 'Roboto Slab', serif, Times New Roman;
+
+  /* font size */
+  --fontSizeH1: 2.875em;
+  --fontSizeH2: 2.125em;
+  --fontSizeH3: 1.75em;
+  --fontSizeH4: 1.625em;
+  --fontSizeH5: 1.5em;
+  --fontSizeH6: 1.375em;
+  --fontSizeH7: 1.125em;
+  --fontSizeH8: 1em;
+  --fontSizeH9: 0.875em;
+
+  /* colors */
+  --blue1: #5a629c;
+  --blue2: #cccee0;
+  --blue3: #e6e7f0;
+  --blue4: #efeff5;
+  --green2: #cad8bc;
+  --green3: #e5ecdf;
+  --red2: #f2b2b2;
+  --red3: #f9dada;
+  --yellow2: #fde8be;
+  --yellow3: #fef4df;
+  --yellow4: #fef8ea;
+
+
+}
+
+#factors-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 39.5625rem);
+  grid-template-rows: repeat(1, 30.75em);
+  gap: 1.5rem;
+  padding: 1rem 6.25rem 0 6.25rem;
+}
+
+.factors-item-2 {
+  position: relative;
+  background: var(--yellow4);
+  border-radius: 20px;
+}
+
+.factors-title-2 {
+  position: absolute;
+  top: 7%;
+  left: 5%;
+  font-size: var(--fontSizeH3);
+  font-family: var(--fontmainH1);
+  font-weight: 500;
+}
+
+.factors-img-2 {
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.overview-button-2 {
+  position: absolute;
+  right: 5%;
+  bottom: 8%;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px black solid;
+  width: 11.25rem;
+  height: 2.5rem;
+  font-size: var(--fontSizeH7);
+  font-family: var(--fontH1);
+  font-weight: 600;
+}
+
+.overview-button-2:hover {
+  background-color: var(--blue2);
+}
+
+.overview-2 {
+  position: absolute;
+  right: 65px;
+  bottom: 8px;
+}
+
+.overview-arrow-2 {
+  position: absolute;
+  width: 20px;
+  top: 9px;
+  right: 35px;
+}
+
+/* factors-long */
+#factors-long,
+#factors-long2 {
+  position: relative;
+  margin: 1.875rem 6.25rem 0 6.25rem;
+  width: 80.6rem;
+  height: 23.75rem;
+  background-color: var(--yellow4);
+}
+
+.factors-label {
+  background-color: #fff;
+  top: 10%;
+  left: 5%;
+  border: 1px black solid;
+  position: absolute;
+}
+
+.factors-long-title {
+  width: 55%;
+  font-size: var(--fontSizeH4);
+  font-family: var(--fontmainH1);
+  font-weight: 500;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+.factors-long-text {
+  width: 51%;
+  font-size: var(--fontSizeH6);
+  font-family: var(--fontmainH1);
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+
+.factors-long-text2 {
+  width: 51%;
+  font-size: var(--fontSizeH6);
+  font-family: var(--fontmainH1);
+  position: absolute;
+  top: 46%;
+  left: 5%;
+}
+
+.factors-continue-button {
+  border-radius: 5px;
+  border: 2px black solid;
+  width: 11.25rem;
+  height: 2.5rem;
+  font-size: var(--fontSizeH7);
+  font-family: var(--fontH1);
+  font-weight: 600;
+  background: none;
+  position: absolute;
+  bottom: 12%;
+  left: 41%;
+}
+
+.factors-continue-button:hover {
+  background-color: var(--blue2);
+}
+
+.factors-long img {
+  width: 441px;
+  height: 313px;
+  position: absolute;
+  bottom: 9%;
+  right: 5%;
+}
+
+/* factors-short */
+#factors-short {
+  display: grid;
+  grid-template-columns: repeat(3, 25.875rem);
+  grid-template-rows: repeat(1, 30.75rem);
+  gap: 1.5rem;
+  padding: 2rem 6.25rem 0 6.25rem;
+}
+
+.factors-short {
+  position: relative;
+  background: var(--yellow4);
+}
+
+.factors-short-label {
+  background-color: #fff;
+  top: 8%;
+  left: 5%;
+  border: 1px black solid;
+  position: absolute;
+}
+
+.factors-short-title {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  font-size: var(--fontSizeH3);
+  font-family: var(--fontmainH1);
+  font-weight: 500;
+}
+
+.factors-short img {
+  position: absolute;
+  width: 90%;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.factors-readmore-button {
+  position: absolute;
+  right: 5%;
+  bottom: 7%;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px black solid;
+  width: 11.25rem;
+  height: 2.5rem;
+  font-size: var(--fontSizeH7);
+  font-family: var(--fontH1);
+  font-weight: 600;
+}
+
+.factors-readmore-button:hover {
+  background-color: var(--blue2);
+}

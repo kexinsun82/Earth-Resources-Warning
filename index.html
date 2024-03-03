@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="./global.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <script defer src="./global.js"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <!-- top-nav -->
+    <div class="top-nav">
+      <div class="sub-navbar">
+        <a href="./news.html"><img class="top-button" src="./images/newsButton.png" alt="newsButton">News & Articles</a>
+        <a href="./aboutUs.html"><img class="top-button" src="./images/aboutUsButton.png" alt="aboutUsButton">About
+          Us</a>
+        <div class="dropdown">
+          <button class="Language"><a href="#"><img class="top-button" id="languageButton"
+                src="./images/languageButton.png" alt="languageButton">Language
+              <i class="fa fa-caret-down"></i></a>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">English</a>
+            <a href="#">French</a>
+            <a href="#">Chinese</a>
+            <a href="#">Spanish</a>
+          </div>
+        </div>
+        <!-- searchForm -->
+        <form id="searchForm">
+          <input class="search-form" type="text" id="search-input" placeholder="Search">
+          <img class="search-button" src="./images/searchButton.png" alt="searchButton">
+        </form>
+      </div>
+    </div>
+    <!-- nav -->
+    <nav>
+      <a href="./index.html"><img id="nav-logo" src="./images/logo.png" alt="logo"></a>
+      <ul>
+        <li class="nav-active nav-title"><a href="./index.html">Home</a></li>
+        <!-- <li class="nav-active"><a href="./index.html" id="nav-title">Home</a></li> -->
+        <li><a href="./resources.html" class="nav-title">Resources</a></li>
+        <li><a href="./factors.html" class="nav-title">Factors</a></li>
+        <li><a href="./protection.html" class="nav-title">Protection</a></li>
+        <li><a href="./getInvolved.html" class="nav-title">Get Involved</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- main -->
+  <main>
+    <!-- Banner-Slideshow -->
+    <div class="slideshow-containter">
+      <div class="slide-box fade">
+        <img class="banner-img" src="./images/banner1.png" alt="Global Efforts Unite to Safeguard Earth">
+        <div class="banner-title">Global Efforts Unite to Safeguard Earth</div>
+        <div class="banner-text">In a collaborative initiative, nations worldwide join hands to address pressing
+          environmental challenges and work towards the preservation of our planet for future generations.</div>
+        <div class="img-resource">Unsplash</div>
+      </div>
+      <div class="slide-box fade">
+        <img class="banner-img" src="./images/banner2.png" alt="Climate impacts span across various sectors">
+        <div class="banner-title">Climate impacts span across various sectors</div>
+        <div class="banner-text">Amidst the accelerating effects of climate change, the financial deficit for adaptation
+          initiatives is now recognized to be at least 50% larger than previously estimated. </div>
+        <div class="img-resource">Unsplash</div>
+      </div>
+      <div class="slide-box fade">
+        <img class="banner-img" src="./images/banner3.png" alt="Impact of Urban Pollution on Earth's Resources">
+        <div class="banner-title">Impact of Urban Pollution on Earth's Resources</div>
+        <div class="banner-text">Exploring the repercussions of urban pollution on the finite resources of our planet,
+          highlighting the urgent need for sustainable solutions and environmental stewardship.</div>
+        <div class="img-resource">Unsplash</div>
+      </div>
+      <!-- arrow -->
+      <a class="prev" onclick="plusSlides(-1)"> <img class="banner-arrow" src="./images/banner-arrow1.png"
+          alt="banner-arrow"> </a>
+      <a class="next" onclick="plusSlides(1)"> <img class="banner-arrow" src="./images/banner-arrow2.png"
+          alt="banner-arrow"> </a>
+    </div>
+    <br>
+    <!-- dots -->
+    <div class="dots-box">
+      <span class="dot dot-active" onclick="currentSlide(1)"></span>
+      <span class="dot dot-active" onclick="currentSlide(2)"></span>
+      <span class="dot dot-active" onclick="currentSlide(3)"></span>
+    </div>
+    <!-- resources -->
+    <div class="bigbox-resources">
+      <h1 class="title"><a href="./resources.html">Resources</a></h1>
+      <div id="resources-index">
+        <!-- resources1 -->
+        <div class="resources-box">
+          <div class="box-label resources-label label1">
+            Freshwater
+          </div>
+          <p class="box-title">The Freshwater Challenge</p>
+          <img class="box-img" src="./images/resources1.png" alt="resources1">
+        </div>
+        <!-- resources2 -->
+        <div class="resources-box">
+          <div class="box-label resources-label label2">
+            Arable Land
+          </div>
+          <p class="box-title">The Arable Land Challenge</p>
+          <img class="box-img" src="./images/resources2.png" alt="resources2">
+        </div>
+        <!-- resources3 -->
+        <div class="resources-box">
+          <div class="box-label resources-label label3">
+            Forests
+          </div>
+          <p class="box-title">The Forests Challenge</p>
+          <img class="box-img" src="./images/resources3.png" alt="resources3">
+        </div>
+        <!-- resources4 -->
+        <div class="resources-box">
+          <div class="box-label resources-label label4">
+            Non-renewable
+          </div>
+          <p class="box-title4">The Non-renewable Challenge</p>
+          <img class="box-img" src="./images/resources4.png" alt="resources4">
+        </div>
+      </div>
+    </div>
+    <!-- News & Articles -->
+    <div class="bigbox-news">
+      <h1 id="News&Articles" class="title"><a href="./news.html">News & Articles</a></h1>
+      <div id="news">
+        <!-- news1 -->
+        <div class="news-img news1">
+          <div class="box-label news-label1">
+            Environmental Degradation
+          </div>
+          <p class="news-title">2023 Champions of the Earth award to celebrate pioneering efforts to end plastic
+            pollution</p>
+          <button class="button learnmore-button">Learn More</button>
+        </div>
+        <!-- news2 -->
+        <div class="news-img news2">
+          <div class="box-label news-label2">
+            Climate Action
+          </div>
+          <p class="news-title">As climate impacts accelerate, finance gap for adaptation efforts at least 50% bigger
+            than thought</p>
+          <button class="button learnmore-button">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <!-- Factors -->
+    <div class="bigbox-factors">
+      <h1 class="title"><a href="./factors.html">Factors</a></h1>
+      <div id="factors">
+        <!-- Factors1 -->
+        <div class="factors-item factors1">
+          <p class="factors-title">Natural Disasters</p>
+          <img class="factors-img" src="./images/factors1.png" alt="factors1">
+          <button class="overview-button">
+            <span class="overview">Overview</span>
+            <img class="overview-arrow" src="./images/overview-arrow.png" alt="overview-arrow">
+          </button>
+        </div>
+        <!-- Factors2 -->
+        <div class="factors-item factors2">
+          <p class="factors-title">Environmental Degradation</p>
+          <img class="factors-img" src="./images/factors2.png" alt="factors2">
+          <button class="overview-button">
+            <span class="overview">Overview</span>
+            <img class="overview-arrow" src="./images/overview-arrow.png" alt="overview-arrow">
+          </button>
+        </div>
+        <!-- Factors3 -->
+        <div class="factors-item factors3">
+          <p class="factors-title">Climate Change</p>
+          <img class="factors-img" src="./images/factors3.png" alt="factors3">
+          <button class="overview-button">
+            <span class="overview">Overview</span>
+            <img class="overview-arrow" src="./images/overview-arrow.png" alt="overview-arrow">
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Take Action -->
+    <div class="big-takeaction">
+      <h1 class="title"><a href="./getInvolved.html">Take Action</a></h1>
+      <div id="takeaction">
+        <!-- Take Action1 -->
+        <div class="takeaction1">
+          <div class="box-label takeaction-label">
+            Population Growth
+          </div>
+          <p class="takeaction-title1">Uniting for action in a pivotal period for the environment</p>
+          <img class="takeaction-img1" src="./images/takeAction1.png" alt="takeAction1">
+        </div>
+        <!-- Take Action2 -->
+        <div class="takeaction-item takeaction2">
+          <p class="date">
+            <br>
+            JUNE, 5, 2024
+          </p>
+          <p class="takeaction-title takeaction-title2">World Environment Day</p>
+          <img class="takeaction-img2" src="./images/takeAction2.png" alt="takeaction2">
+          <button class="joinus-button">
+            Join Us
+          </button>
+        </div>
+        <!-- Take Action3 -->
+        <div class="takeaction-item takeaction3">
+          <p class="date">
+            Romania
+            <br>JUNE, 2022
+          </p>
+          <p class="takeaction-title takeaction-title3">E-waste collection campaign, Romania</p>
+          <img class="takeaction-img2" src="./images/takeAction3.png" alt="takeaction3">
+          <button class="joinus-button">
+            Join Us
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Us -->
+    <h1 class="title">Contact Us</h1>
+    <div id="form-contant">
+      <div id="contactus">
+        <div class="contact-left">
+          <form action="#" method="post">
+            <label for="firstName">
+              First Name*
+            </label>
+            <input type="text" id="firstName" name="firstName" required>
+            <label for="lastName">
+              Last Name*
+            </label>
+            <input type="text" id="lastName" name="lastName" required>
+            <label for="email">
+              Email*
+            </label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">
+              Phone
+            </label>
+            <input type="number" id="phone" name="phone" required>
+            <br>
+            <button class="form-button submit">Submit</button>
+            <button class="form-button cancel">Cancel</button>
+          </form>
+        </div>
+        <div class="contact-right">
+          <form action="#">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </form>
+          <form class="subscribe" action="#">
+            <input type="checkbox" id="Subscribe" name="Subscribe" value="Subscribe">
+            <label id="subscribe" for="Subscribe">Subscribe to be the first to hear about our latest news!</label>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer id="footer">
+    <div class="footer1">
+      <h1 class="footer-title">Quick Links</h1>
+      <a class="quick-title" href="./index.html">Home</a>
+      <a class="quick-title" href="./resources.html">Resources</a>
+      <a class="quick-title" href="./factors.html">Factors</a>
+      <a class="quick-title" href="./protection.html">Protection</a>
+      <a class="quick-title" href="./getInvolved.html">Get Involved</a>
+      <a class="quick-title" href="./news.html">News & Articles</a>
+      <a class="quick-title" href="./aboutUs.html">About Us</a>
+    </div>
+    <div class="footer2">
+      <h1 class="footer-title">Follow Us</h1>
+      <a class="follow-logo" target="_blank" href="https://www.facebook.com/"><img src="./images/facebook.png"
+          alt="facebook"></a>
+      <a class="follow-logo" target="_blank" href="https://twitter.com/"><img src="./images/twitter.png"
+          alt="twitter"></a>
+      <a class="follow-logo" target="_blank" href="https://www.linkedin.com/"><img src="./images/linkedin.png"
+          alt="linkedin"></a>
+      <a class="follow-logo" target="_blank" href="https://www.instagram.com/"><img src="./images/instagram.png"
+          alt="instagram"></a>
+    </div>
+    <div class="footer3">
+      <!-- searchForm -->
+      <form>
+        <input class="search-form" type="text" id="footer-searchForm" placeholder="Search">
+        <img class="footer-search" src="./images/searchButton.png" alt="searchButton">
+      </form>
+      <a href="./index.html"><img class="footer-logo" src="./images/logo.png" alt="footer-logo"></a>
+    </div>
+  </footer>
+  <img onclick="topFunction()" id="gototop" class="top" src="./images/top.png" alt="gototop">
+</body>
+
+</html>
